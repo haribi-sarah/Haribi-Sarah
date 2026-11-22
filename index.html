@@ -3,26 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>document</title>
     <link rel="stylesheet" href="./public/css/output.css" />
   </head>
-  <body>
-    <section class="w-screen flex flex-col justify-center items-center bg-[#0f172a]">
-      <div class="w-full flex flex-col justify-center items-center gap-4 ">
-       <div class="w-full flex flex-col justify-center items-center">
-         <p class="text-[#22d3ee] uppercase tracking-[1px] ">
+  <body class="bg-[#0f172a]">
+    <section class="w-full bg-[#0f172a] px-4 py-16">
+      
+      <div class="mx-auto flex max-w-2xl flex-col items-center gap-4 text-center">
+        <div class="flex flex-col items-center gap-2">
+          <p class="text-xs font-medium uppercase tracking-[2px] text-cyan-400">
+            Featured Speakers
+          </p>
+          <div class="h-[2px] w-14 bg-cyan-400"></div>
+        </div>
+        <h1 class="text-4xl font-medium text-white md:text-5xl">
           Featured Speakers
-        </p>
-        <div class="py-[1.5px] w-14 bg-[#1bd3ee] underline"></div>
-       </div>
-        <h1 class=" text-white text-5xl ">Featured Speakers</h1>
-        <p class=" max-w-2xl text-lg  text-gray-300  ">
+        </h1>
+        <p class="text-base text-slate-300">
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit
           voluptatem accusantium doloremque laudantium totam rem aperiam
         </p>
       </div>
-     
+
+      
+      <div class="mx-auto mt-12 flex max-w-6xl flex-wrap justify-center gap-6 max-sm:flex-col">
+        
+        <article class="flex w-full overflow-hidden rounded-xl border border-slate-700 bg-[#1b2438] max-sm:flex-col lg:w-[calc(50%-12px)]">
+          <img class="h-60 w-full object-cover sm:h-auto sm:w-[40%]" src="./public/images/emily-rodriguez-1341764039535.webp" alt="Victoria Henderson" />
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <span class="w-fit rounded-full bg-sky-400 px-3 py-1 text-[10px] font-bold uppercase text-slate-900">Keynote Speaker</span>
+            <h3 class="text-xl font-bold text-white">Victoria Henderson</h3>
+            <div>
+              <p class="text-sm font-semibold text-cyan-400">Chief Innovation Officer</p>
+              <p class="text-sm text-slate-400">TechForward Labs</p>
+            </div>
+            <div class="flex items-center gap-2 rounded-lg border-l-4 border-cyan-400 bg-[#1f384d] px-3 py-3 text-sm font-semibold text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#22d3ee" viewBox="0 0 16 16" class="shrink-0"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" /><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" /></svg>
+              The Future of Digital Transformation
+            </div>
+            <p class="text-sm text-slate-400">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+            <a href="#" class="mt-auto flex w-fit items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300">Full Bio
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" /></svg>
+            </a>
+          </div>
+        </article>
+
+        
+        <article class="flex w-full overflow-hidden rounded-xl border border-slate-700 bg-[#1b2438] max-sm:flex-col lg:w-[calc(50%-12px)]">
+          <img class="h-60 w-full object-cover sm:h-auto sm:w-[40%]" src="./public/images/person1.jpg" alt="Marcus Sullivan" />
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <span class="w-fit rounded-full bg-sky-400 px-3 py-1 text-[10px] font-bold uppercase text-slate-900">Technical Workshop</span>
+            <h3 class="text-xl font-bold text-white">Marcus Sullivan</h3>
+            <div>
+              <p class="text-sm font-semibold text-cyan-400">Principal Engineer</p>
+              <p class="text-sm text-slate-400">CloudNative Systems</p>
+            </div>
+            <div class="flex items-center gap-2 rounded-lg border-l-4 border-cyan-400 bg-[#1f384d] px-3 py-3 text-sm font-semibold text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#22d3ee" viewBox="0 0 16 16" class="shrink-0"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" /><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" /></svg>
+              Kubernetes at Scale: Best Practices
+            </div>
+            <p class="text-sm text-slate-400">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+            <a href="#" class="mt-auto flex w-fit items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300">Full Bio
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" /></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="flex w-full overflow-hidden rounded-xl border border-slate-700 bg-[#1b2438] max-sm:flex-col lg:w-[calc(50%-12px)]">
+          <img class="h-60 w-full object-cover sm:h-auto sm:w-[40%]" src="./public/images/person2.jpg" alt="Isabella Martinez" />
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <span class="w-fit rounded-full bg-sky-400 px-3 py-1 text-[10px] font-bold uppercase text-slate-900">Panel Discussion</span>
+            <h3 class="text-xl font-bold text-white">Isabella Martinez</h3>
+            <div>
+              <p class="text-sm font-semibold text-cyan-400">Head of Analytics</p>
+              <p class="text-sm text-slate-400">DataVision Intelligence</p>
+            </div>
+            <div class="flex items-center gap-2 rounded-lg border-l-4 border-cyan-400 bg-[#1f384d] px-3 py-3 text-sm font-semibold text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#22d3ee" viewBox="0 0 16 16" class="shrink-0"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" /><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" /></svg>
+              Machine Learning in Enterprise Solutions
+            </div>
+            <p class="text-sm text-slate-400">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim laborum.</p>
+            <a href="#" class="mt-auto flex w-fit items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300">Full Bio
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" /></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="flex w-full overflow-hidden rounded-xl border border-slate-700 bg-[#1b2438] max-sm:flex-col lg:w-[calc(50%-12px)]">
+          <img class="h-60 w-full object-cover sm:h-auto sm:w-[40%]" src="./public/images/person3.jpg" alt="Robert Lawson" />
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <span class="w-fit rounded-full bg-sky-400 px-3 py-1 text-[10px] font-bold uppercase text-slate-900">Fireside Chat</span>
+            <h3 class="text-xl font-bold text-white">Robert Lawson</h3>
+            <div>
+              <p class="text-sm font-semibold text-cyan-400">Co-Founder</p>
+              <p class="text-sm text-slate-400">NextGen Startups</p>
+            </div>
+            <div class="flex items-center gap-2 rounded-lg border-l-4 border-cyan-400 bg-[#1f384d] px-3 py-3 text-sm font-semibold text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#22d3ee" viewBox="0 0 16 16" class="shrink-0"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" /><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" /></svg>
+              Building Products Users Actually Love
+            </div>
+            <p class="text-sm text-slate-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat nulla pariatur magna.</p>
+            <a href="#" class="mt-auto flex w-fit items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300">Full Bio
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" /></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="flex w-full overflow-hidden rounded-xl border border-slate-700 bg-[#1b2438] max-sm:flex-col lg:w-[calc(50%-12px)]">
+          <img class="h-60 w-full object-cover sm:h-auto sm:w-[40%]" src="./public/images/person4.jpg" alt="Sophia Anderson" />
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <span class="w-fit rounded-full bg-sky-400 px-3 py-1 text-[10px] font-bold uppercase text-slate-900">Interactive Session</span>
+            <h3 class="text-xl font-bold text-white">Sophia Anderson</h3>
+            <div>
+              <p class="text-sm font-semibold text-cyan-400">Creative Director</p>
+              <p class="text-sm text-slate-400">BrandCraft Agency</p>
+            </div>
+            <div class="flex items-center gap-2 rounded-lg border-l-4 border-cyan-400 bg-[#1f384d] px-3 py-3 text-sm font-semibold text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#22d3ee" viewBox="0 0 16 16" class="shrink-0"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" /><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" /></svg>
+              Design Thinking for Digital Products
+            </div>
+            <p class="text-sm text-slate-400">Consequatur aut perferendis doloribus asperiores repellat optio molestiae expedita distinctio eaque ipsam.</p>
+            <a href="#" class="mt-auto flex w-fit items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300">Full Bio
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" /></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="flex w-full overflow-hidden rounded-xl border border-slate-700 bg-[#1b2438] max-sm:flex-col lg:w-[calc(50%-12px)]">
+          <img class="h-60 w-full object-cover sm:h-auto sm:w-[40%]" src="./public/images/person5.jpg" alt="Christopher Park" />
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <span class="w-fit rounded-full bg-sky-400 px-3 py-1 text-[10px] font-bold uppercase text-slate-900">Live Demo</span>
+            <h3 class="text-xl font-bold text-white">Christopher Park</h3>
+            <div>
+              <p class="text-sm font-semibold text-cyan-400">VP of Engineering</p>
+              <p class="text-sm text-slate-400">SecureNet Technologies</p>
+            </div>
+            <div class="flex items-center gap-2 rounded-lg border-l-4 border-cyan-400 bg-[#1f384d] px-3 py-3 text-sm font-semibold text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#22d3ee" viewBox="0 0 16 16" class="shrink-0"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" /><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" /></svg>
+              Modern Application Security Strategies
+            </div>
+            <p class="text-sm text-slate-400">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit aliquam quaerat.</p>
+            <a href="#" class="mt-auto flex w-fit items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300">Full Bio
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" /></svg>
+            </a>
+          </div>
+        </article>
+      </div>
     </section>
   </body>
 </html>

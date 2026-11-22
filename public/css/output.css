@@ -512,6 +512,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-1 {
+    gap: var(--spacing);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -538,6 +541,9 @@
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
+  }
+  .gap-25 {
+    gap: calc(var(--spacing) * 25);
   }
   .gap-\[1\.5rem\] {
     gap: 1.5rem;
@@ -777,6 +783,9 @@
   .bg-\[\#1f384d\] {
     background-color: #1f384d;
   }
+  .bg-\[\#1fbed6\] {
+    background-color: #1fbed6;
+  }
   .bg-\[\#2\] {
     background-color: #2;
   }
@@ -990,11 +999,20 @@
   .px-\[2rem\] {
     padding-inline: 2rem;
   }
+  .px-\[5px\] {
+    padding-inline: 5px;
+  }
   .px-\[5rem\] {
     padding-inline: 5rem;
   }
   .px-\[10\%\] {
     padding-inline: 10%;
+  }
+  .px-\[10\] {
+    padding-inline: 10;
+  }
+  .px-\[10px\] {
+    padding-inline: 10px;
   }
   .px-\[10rem\] {
     padding-inline: 10rem;
@@ -1004,6 +1022,9 @@
   }
   .px-\[30px\] {
     padding-inline: 30px;
+  }
+  .px-\[40px\] {
+    padding-inline: 40px;
   }
   .px-\[50\] {
     padding-inline: 50;
@@ -1020,8 +1041,14 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
+  }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
+  }
+  .py-7 {
+    padding-block: calc(var(--spacing) * 7);
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
@@ -1038,11 +1065,17 @@
   .py-\[3rem\] {
     padding-block: 3rem;
   }
+  .py-\[4rem\] {
+    padding-block: 4rem;
+  }
   .py-\[5\] {
     padding-block: 5;
   }
   .py-\[5px\] {
     padding-block: 5px;
+  }
+  .py-\[10px\] {
+    padding-block: 10px;
   }
   .py-\[10rem\] {
     padding-block: 10rem;
@@ -1052,6 +1085,9 @@
   }
   .py-\[20px\] {
     padding-block: 20px;
+  }
+  .py-\[40px\] {
+    padding-block: 40px;
   }
   .py-\[50\] {
     padding-block: 50;

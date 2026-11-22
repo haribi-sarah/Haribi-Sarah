@@ -12,8 +12,8 @@
         <div>
             <p class="text-2xl font-bold text-white">Lions<span class="text-amber-300">Conf.</span></p>
         </div>
-
-        <div class="text-white gap-4.5 flex max-sm:hidden">
+        <input type="checkbox" id="menuChecked" class="peer hidden">
+        <div class="text-white gap-4.5  flex max-sm:absolute max-sm:flex-col max-sm:bg-indigo-950 max-sm:w-[90%] max-sm:top-18 max-sm:justify-center max-sm:items-center max-sm:-left-full max-sm:peer-checked:left-[20px] ">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Schedule</a>
@@ -24,7 +24,7 @@
             <a href="#">Contact</a>
         </div>
 
-        <div class="flex gap-2 max-sm:hidden">
+        <div class="flex gap-2 ">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#7a7575">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M8.267 3a1 1 0 0 1 .73 .317l.076 .092l4.274 5.828l5.946 -5.944a1 1 0 0 1 1.497 1.32l-.083 .094l-6.163 6.162l6.262 8.54a1 1 0 0 1 -.697 1.585l-.109 .006h-4.267a1 1 0 0 1 -.73 -.317l-.076 -.092l-4.276 -5.829l-5.944 5.945a1 1 0 0 1 -1.497 -1.32l.083 -.094l6.161 -6.163l-6.26 -8.539a1 1 0 0 1 .697 -1.585l.109 -.006h4.267z"/>
@@ -45,7 +45,12 @@
                 <path d="M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3"/>
             </svg>
         </div>
-        <button class="hidden max-sm:block text-white text-3xl">☰</button>
+        <label for="menuChecked" class="cursor-pointer">
+            
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#f4f6fb" class="icon icon-tabler icons-tabler-filled icon-tabler-menu-2 hidden max-sm:block"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M21 6a1 1 0 0 1 -1 1h-16a1 1 0 1 1 0 -2h16a1 1 0 0 1 1 1" /><path d="M21 12a1 1 0 0 1 -1 1h-16a1 1 0 0 1 0 -2h16a1 1 0 0 1 1 1" /><path d="M21 18a1 1 0 0 1 -1 1h-16a1 1 0 0 1 0 -2h16a1 1 0 0 1 1 1" /></svg>
+            
+        </label>
+        
     </nav>
 
     <div class="flex justify-between items-center px-[10%] pt-32 pb-12 gap-8 max-sm:flex-col max-sm:px-6 max-sm:gap-10">
@@ -811,9 +816,115 @@ export to calender
             </div>
         </div>
     </section>
-    <section id="sarah"></section>
+    <section id="sarah" class="bg-[#132134] flex justify-center  max-sm:flex-col max-sm:px-3.5">
+        <div class="flex flex-col w-[40%] py-10 gap-8 items-start max-sm:w-full max-sm:py-5 ">
+            <div>
+                <button class="bg-[#0e2b3480] text-[#22d3ee] p-2 rounded-3xl text-sm">LIMITED TIME OFFER</button>
+            </div>
+            <div>
+                <h1 class="text-white capitalize text-3xl font-bold w-[90%] max-lg:w-full max-lg:text-4xl max-sm:text-3xl">Elevate Your Career at the Global Summit </h1>
+                <p class="text-gray-500 text-sm font-semibold mt-4"> Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et <br class="max-sm:hidden"> dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation <br class="max-sm:hidden"> ullamco laboris.</p>
+            </div>
 
-    <!-- section 7 oussama -->
+            <div class="text-white flex flex-col gap-5">
+                <div class="flex gap-5 ">
+                    <div class="bg-[#22d3ee] rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#132034" class="icon icon-tabler icons-tabler-filled icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M20.707 6.293a1 1 0 0 1 0 1.414l-10 10a1 1 0 0 1 -1.414 0l-5 -5a1 1 0 0 1 1.414 -1.414l4.293 4.293l9.293 -9.293a1 1 0 0 1 1.414 0" /></svg>
+                    </div>
+                    <p class="font-semibold ">Access to 120+ workshop sessions</p>
+                </div>
+                <div class="flex gap-5">
+                    <div class="bg-[#22d3ee] rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#132034" class="icon icon-tabler icons-tabler-filled icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M20.707 6.293a1 1 0 0 1 0 1.414l-10 10a1 1 0 0 1 -1.414 0l-5 -5a1 1 0 0 1 1.414 -1.414l4.293 4.293l9.293 -9.293a1 1 0 0 1 1.414 0" /></svg>
+                    </div>
+                    <p class="font-semibold ">VIP networking opportunities</p>
+                </div>
+                <div class="flex gap-5">
+                    <div class="bg-[#22d3ee] rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#132034" class="icon icon-tabler icons-tabler-filled icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M20.707 6.293a1 1 0 0 1 0 1.414l-10 10a1 1 0 0 1 -1.414 0l-5 -5a1 1 0 0 1 1.414 -1.414l4.293 4.293l9.293 -9.293a1 1 0 0 1 1.414 0" /></svg>
+                    </div>
+                    <p class="font-semibold ">Exclusive resource materials included</p>
+                </div>
+            </div>
+
+
+
+            <div class="flex gap-6 max-sm:flex-col max-sm:w-full">
+                <button class="bg-[#22d3ee] text-white font-semibold py-[0.8rem] px-6 w-fit rounded-md hover:bg-amber-500 hover:shadow-lg shadow-amber-300 max-sm:w-full"> <a href="#">Secure Your Seats</a></button>
+                <button class="bg-transparent text-white font-semibold py-[0.8rem] px-6 w-fit rounded-md border-2 hover:text-amber-300 border-white max-sm:w-full hover:shadow-lg shadow-amber-300"> <a href="#">View Schedule</a></button>
+            </div>
+
+        </div>
+        <div class="flex flex-col py-20 gap-8 w-[40%]  max-sm:w-full max-sm:py-5">
+            <div class="flex flex-col gap-8 max-sm:px-5 ">
+                <div class="flex gap-8 max-sm:flex-col  ">
+                    <div class="flex bg-[#28334b]  max-sm:w-full  max-sm:justify-center max-sm:items-center w-fit gap-4 p-4 rounded-2xl">
+                        <div class="bg-[#20c6df] rounded-xl flex justify-center items-center px-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0f172a" class="bi bi-people-fill" viewBox="0 0 16 16"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/></svg>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold text-white">7 500</h1>
+                            <p class="text-gray-500"> Global Participants</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-[#28334b] max-sm:w-full max-sm:justify-center max-sm:items-center w-fit gap-4 p-4 rounded-2xl">
+                        <div class="bg-[#20c6df] rounded-xl flex justify-center items-center px-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0f172a" class="icon icon-tabler icons-tabler-filled icon-tabler-microphone"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M19 9a1 1 0 0 1 1 1a8 8 0 0 1 -6.999 7.938l-.001 2.062h3a1 1 0 0 1 0 2h-8a1 1 0 0 1 0 -2h3v-2.062a8 8 0 0 1 -7 -7.938a1 1 0 1 1 2 0a6 6 0 0 0 12 0a1 1 0 0 1 1 -1m-7 -8a4 4 0 0 1 4 4v5a4 4 0 1 1 -8 0v-5a4 4 0 0 1 4 -4" /></svg>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold text-white">120</h1>
+                            <p class="text-gray-500"> Industry Leaders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-8 max-sm:flex-col">
+                    <div class="flex bg-[#28334b] max-sm:w-full max-sm:justify-center max-sm:items-center w-fit gap-4 p-4 rounded-2xl">
+                        <div class="bg-[#20c6df] rounded-xl flex justify-center items-center px-4 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#0f172a" class="icon icon-tabler icons-tabler-filled icon-tabler-world"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M21.165 16a10 10 0 0 1 -8.434 5.973a1 1 0 0 0 .617 -.444a18 18 0 0 0 2.28 -5.528z" /><path d="M8.372 16a18 18 0 0 0 2.28 5.53a1 1 0 0 0 .616 .443a10 10 0 0 1 -8.433 -5.973z" /><path d="M13.57 16a16 16 0 0 1 -1.57 3.884a16 16 0 0 1 -1.57 -3.884" /><path d="M8.034 10a18 18 0 0 0 0 4h-5.832a10 10 0 0 1 -.002 -4z" /><path d="M13.952 10a16 16 0 0 1 0 4h-3.904a16 16 0 0 1 0 -4z" /><path d="M21.8 10a10.05 10.05 0 0 1 -.002 4h-5.832c.149 -1.329 .149 -2.67 0 -4z" /><path d="M11.267 2.027a1 1 0 0 0 -.615 .444a18 18 0 0 0 -2.28 5.529h-5.54a10.01 10.01 0 0 1 8.334 -5.967z" /><path d="M12 4.116a16 16 0 0 1 1.57 3.885h-3.14c.34 -1.317 .85 -2.6 1.53 -3.817z" /><path d="M12.733 2.026a10.01 10.01 0 0 1 8.435 5.974h-5.54a18 18 0 0 0 -2.28 -5.53a1 1 0 0 0 -.517 -.414z" /></svg>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold text-white">42</h1>
+                            <p class="text-gray-500"> Nations Joining</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-[#28334b] max-sm:w-full max-sm:justify-center max-sm:items-center w-fit gap-4 p-4 rounded-2xl">
+                        <div class="bg-[#20c6df] rounded-xl flex justify-center items-center px-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0f172a" class="icon icon-tabler icons-tabler-filled icon-tabler-trophy"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M17 3a1 1 0 0 1 .993 .883l.007 .117v2.17a3 3 0 1 1 0 5.659v.171a6.002 6.002 0 0 1 -5 5.917v2.083h3a1 1 0 0 1 .117 1.993l-.117 .007h-8a1 1 0 0 1 -.117 -1.993l.117 -.007h3v-2.083a6.002 6.002 0 0 1 -4.996 -5.692l-.004 -.225v-.171a3 3 0 0 1 -3.996 -2.653l-.003 -.176l.005 -.176a3 3 0 0 1 3.995 -2.654l-.001 -2.17a1 1 0 0 1 1 -1h10zm-12 5a1 1 0 1 0 0 2a1 1 0 0 0 0 -2m14 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2" /></svg>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold text-white">15</h1>
+                            <p class="text-gray-500">Years Running</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <hr class="text-mist-700">
+            <div class="flex gap-4 max-sm:flex-col text-white max-sm:px-4">
+                <div class="max-sm:flex flex max-sm:gap-16">
+                    <div class="flex gap-2.5">
+                        <div class="bg-[#1ebdd5] rounded-full p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#182338" class="icon icon-tabler icons-tabler-filled icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M20.707 6.293a1 1 0 0 1 0 1.414l-10 10a1 1 0 0 1 -1.414 0l-5 -5a1 1 0 0 1 1.414 -1.414l4.293 4.293l9.293 -9.293a1 1 0 0 1 1.414 0" /></svg>
+                        </div>
+                        <p>Verified Event</p>
+                    </div>
+                    <div class="flex gap-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#20c6df" class="icon icon-tabler icons-tabler-filled icon-tabler-app-window"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M19 4a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3zm-12.99 3l-.127 .007a1 1 0 0 0 .117 1.993l.127 -.007a1 1 0 0 0 -.117 -1.993zm3 0l-.127 .007a1 1 0 0 0 .117 1.993l.127 -.007a1 1 0 0 0 -.117 -1.993z" /></svg>
+                        <p>Secure Checkout</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-2.5 justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#20c6df" class="icon icon-tabler icons-tabler-filled icon-tabler-arrow-guide"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18.707 3.293l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.03 .148l.006 .118l-.003 .075l-.017 .126l-.03 .111l-.044 .111l-.052 .098l-.067 .096l-.08 .09l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-4.585a1 1 0 0 0 -1 1v8a3 3 0 0 1 -3 3h-2.171a3.001 3.001 0 0 1 -5.829 -1l.005 -.176a3 3 0 0 1 5.825 -.824h2.17a1 1 0 0 0 1 -1v-8a3 3 0 0 1 3 -3h4.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0" /></svg>
+                    <p>Easy Refunds</p>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
     <section id="oussama" class="bg-[#121728] flex flex-col items-center gap-[1rem] p-[2rem]">
         
         <span class="text-[#22d3ee]"><ins class="underline-offset-[8px]">Testimonials</ins></span>
@@ -950,12 +1061,10 @@ export to calender
     <section id="hamza"></section>
    </main>
 
-
-   <!-- footer oussama -->
    <footer class="bg-[#1e2539] text-white py-[3rem] px-[5rem] capitalize flex flex-col gap-[3rem] max-sm:px-[2rem]">
         <div class="top-side flex gap-[2rem] max-sm:flex-col">
             <div class="flex flex-col gap-[1.5rem] w-[35%] max-sm:w-full ">
-                <h2 class="text-[28px] font-extrabold text-[#65d0ea]">eventia</h2>
+                <p class="text-2xl font-bold text-white">Lions<span class="text-amber-300">Conf.</span></p>
                 <p class="max-sm:text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla ante eget feugiat commodo. Nulla et justo vitae nisl euismod fermentum in vel magna.</p>
                 <div class="flex gap-[10px] max-sm:justify-center">
                     <div class="p-[10px] bg-[#65d0ea] rounded-full ">
@@ -1086,8 +1195,8 @@ export to calender
         <hr class="bg-[#32394a] border-hidden h-[1px]">
 
         <div class="flex flex-col items-center gap-[10px]">
-            <p class="max-sm:text-center">&copy; Copyright <span class="text-[#65d0ea]">Eventia</span> All Rights Reserved</p>
-            <p>Designed by <span class="text-[#65d0ea]">BootstrapMade</span></p>
+            <p class="max-sm:text-center">&copy; Copyright <span class="text-[#65d0ea]">LionsConf.</span> All Rights Reserved</p>
+            <p>Designed by <span class="text-[#65d0ea]">Team-Sarah</span></p>
         </div>
    </footer>
    

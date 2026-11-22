@@ -12,8 +12,8 @@
         <div>
             <p class="text-2xl font-bold text-white">Lions<span class="text-amber-300">Conf.</span></p>
         </div>
-
-        <div class="text-white gap-4.5 flex max-sm:hidden">
+        <input type="checkbox" id="menuChecked" class="peer hidden">
+        <div class="text-white gap-4.5  flex max-sm:absolute max-sm:flex-col max-sm:bg-indigo-950 max-sm:w-[90%] max-sm:top-18 max-sm:justify-center max-sm:items-center max-sm:-left-full max-sm:peer-checked:left-[20px] ">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Schedule</a>
@@ -24,7 +24,7 @@
             <a href="#">Contact</a>
         </div>
 
-        <div class="flex gap-2 max-sm:hidden">
+        <div class="flex gap-2 ">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#7a7575">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M8.267 3a1 1 0 0 1 .73 .317l.076 .092l4.274 5.828l5.946 -5.944a1 1 0 0 1 1.497 1.32l-.083 .094l-6.163 6.162l6.262 8.54a1 1 0 0 1 -.697 1.585l-.109 .006h-4.267a1 1 0 0 1 -.73 -.317l-.076 -.092l-4.276 -5.829l-5.944 5.945a1 1 0 0 1 -1.497 -1.32l.083 -.094l6.161 -6.163l-6.26 -8.539a1 1 0 0 1 .697 -1.585l.109 -.006h4.267z"/>
@@ -45,7 +45,12 @@
                 <path d="M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3"/>
             </svg>
         </div>
-        <button class="hidden max-sm:block text-white text-3xl">☰</button>
+        <label for="menuChecked" class="cursor-pointer">
+            
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#f4f6fb" class="icon icon-tabler icons-tabler-filled icon-tabler-menu-2 hidden max-sm:block"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M21 6a1 1 0 0 1 -1 1h-16a1 1 0 1 1 0 -2h16a1 1 0 0 1 1 1" /><path d="M21 12a1 1 0 0 1 -1 1h-16a1 1 0 0 1 0 -2h16a1 1 0 0 1 1 1" /><path d="M21 18a1 1 0 0 1 -1 1h-16a1 1 0 0 1 0 -2h16a1 1 0 0 1 1 1" /></svg>
+            
+        </label>
+        
     </nav>
 
     <div class="flex justify-between items-center px-[10%] pt-32 pb-12 gap-8 max-sm:flex-col max-sm:px-6 max-sm:gap-10">
@@ -637,7 +642,7 @@
             </div>
             <hr class="text-mist-700">
             <div class="flex gap-4 max-sm:flex-col text-white max-sm:px-4">
-                <div class="max-sm:flex max-sm:gap-16">
+                <div class="max-sm:flex flex max-sm:gap-16">
                     <div class="flex gap-2.5">
                         <div class="bg-[#1ebdd5] rounded-full p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#182338" class="icon icon-tabler icons-tabler-filled icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M20.707 6.293a1 1 0 0 1 0 1.414l-10 10a1 1 0 0 1 -1.414 0l-5 -5a1 1 0 0 1 1.414 -1.414l4.293 4.293l9.293 -9.293a1 1 0 0 1 1.414 0" /></svg>
